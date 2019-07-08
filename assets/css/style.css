@@ -1,0 +1,254 @@
+@font-face {
+	font-family: "hinde";
+	src: url(../fonts/Helvetica.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+/*landing page*/
+
+#jumbo-land {
+	height: 100vh;
+	padding-top: 20%;
+	background-color: #333; /*off black*/
+	border-radius: 0; /*removes jumbotron's rounded corners;*/
+}
+
+.jumbotron h1 {
+	font-family: 'Work Sans', sans-serif;
+	color: #ffc914;
+	font-size: 50px;
+}
+
+.jumbotron hr {
+	background-color: #ffc914;
+}
+
+.btn a {
+	text-decoration: none;
+	color: black;
+}
+
+#jumbo-land {
+	background-image: url(../images/landing3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.jumbotron div {
+	text-align: center;
+}
+
+.container {
+	padding-right: -15px;
+	padding-left: -15px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow-x: hidden;
+}
+
+/*end landing*/
+
+#navbar {
+	background-color: indianred;
+}
+
+
+
+/*home page*/
+#home-landing {
+	background-color: #333;
+	color: #ffc914;
+	padding: 20%;
+	background-image: url(../images/maplights.jpg);
+}
+
+.kolumn {
+	background-color: red;
+}
+
+.container-fluid {
+	background-color: white;
+}
+/*end home page*/
+
+/*about page*/
+
+#jumbotron-about {
+	border-radius: 0;
+	margin-bottom: 0;
+	background-image: url(../images/maplights.jpg);
+	color: #ffc914;
+	padding: 10%;
+	font-size: 10px;
+}
+
+#landing-about {
+	/*color: #f2f2f2;*/
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	font-family: hinde, sans-serif;
+}
+
+#mission {
+	height: 100%;
+	background-color: #fff275; /*off black*/
+	color: black;
+}
+
+
+#vision {
+	height: 100%;
+	background-color: #ffc914;
+	color: black;
+}
+
+.about-tags {
+	font-weight: bold;
+	font-family: hinde, sans-serif;
+}
+
+footer {
+	background-color: #f4e285;
+}
+
+/*end about page*/
+
+/*contact page*/
+
+#gmap {
+	width: 100%;
+	display: block;
+	border: none;
+	height: 70vh;
+	border-radius: 10px;
+}
+
+/*end contact page*/
+
+
+/*MISCELLANEOUS*/
+
+#carousel-home {
+	height: 50vh; /*this will resize the height of the carousel*/
+}
+
+#carousel-home img {
+	height: 50vh; /*resize the height of the images in the carousel*/
+}					/*to fit the new height of the carousel*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+	body {
+		background-color: #FF5546; /*red*/
+	}
+/*	.container {
+		height: 100%;
+	}
+	h1 {
+		font-size: 50px;
+		color: blue;
+		background-color: green;
+	}*/
+}
+
+/*Tablet Style*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	body {
+		background-color: #FFFF66; /*yellow*/
+	}
+	.sign-up,
+	.feature-1,
+	.feature-2,
+	.feature-3 {
+		width: 50%;
+		float: left;
+	}
+}
+
+/*Desktop Style*/
+@media only screen and (min-width: 961px) {
+	body {
+		background-color: #1E84D4; /*blue*/
+	}
+
+/*	.page {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.feature-1,
+	.feature-2,
+	.feature-3 {
+		width: 33.3%;
+		float: left;
+	}
+
+	.header {
+		height: 400px;
+	}*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
